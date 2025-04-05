@@ -7,4 +7,4 @@ Add your HTML and CSS code to that created repo.
 Go to repo settings --> left side panel select pages --> Select the branch, select route, and click on Save.
 Go to Actions and check pipeline or deployment will going on, Once completed click on the complete job. Inside will get our deployed portfolio URL.
 # portfolios
-https://kodamphanindhra.github.io/portfolio-PK/
+https://rashee2020.github.io/rashee2020/
