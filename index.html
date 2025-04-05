@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- =====BOX ICONS===== -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <title>Portfolio website</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div class="d-flex aI-C">
+        <div>
+          <img src="assets/img/logoPK1.png" alt="" class="logo__img mR-10" />
+        </div>
+        <a href="" class="nav__logo">Rashi Mishra</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Work</a>
+          </li>
+          <!--                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">
+          Hi,<br />I'am <span class="home__title-color">Rashi Mishra</span><br />
+          Mobile App Developer
+        </h1>
+
+        <!-- <a href="#contact" class="button">Contact</a> -->
+      </div>
+
+      <div class="home__social">
+        <a href="https://www.linkedin.com/in/rashi-mishra-a16593146/" target="_blank" class="home__social-icon"><i
+            class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/rashee2020" target="_blank" class="home__social-icon"><i
+            class="bx bxl-github"></i></a>
+        <a href="assets/Resume.pdf" download="rashee_resume" target="_blank" class="home__social-icon"><i
+            class="bx bxs-download"></i></a>
+      </div>
+
+      <div class="home__img">
+        <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+          <mask id="mask0" mask-type="alpha">
+            <path
+              d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+          </mask>
+          <g mask="url(#mask0)">
+            <path
+              d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+            <image class="home__blob-img" x="0" y="0" href="assets/img/main11.o.jpg" />
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="assets/img/Phani.jpg" alt="" />
+        </div>
+
+        <div>
+          <h2 class="about__subtitle">I'am Rashi Mishra</h2>
+          <p class="aboutText">
+            Highly skilled Front-End Developer with over 6+ years of experience in building and maintaining dynamic web
+            applications using React Native. Proficient in creating responsive and user-centric interfaces, integrating 
+            RESTful APIs, and leveraging modern JavaScript frameworks. Adept at leading development teams, conducting 
+            code reviews, and optimizing performance. Experienced in Agile methodologies, with a proven track record of 
+            delivering high-quality solutions on time. Strong background in UI/UX design, cloud technologies, and version 
+            control systems. Demonstrated ability to collaborate with cross-functional teams and drive project success in fast-paced environments.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills__container bd-grid">
+        <div>
+          <h2 class="skills__subtitle">Professional Skills</h2>
+          <p class="skills__text">
+            Software Engineer-L1 - Talks about #MEANStack, #MERNStack, #CICD, React JS | Angular | React Native | NextJS
+            | Redux Toolkit | NgRx | AWS | Javascript | ES6 | Typescript | HTML 5 | CSS 3 | SASS
+          </p>
+          <div>
+            <img src="assets/img/techStack.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
+        <div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-react skills__icon"></i>
+              <span class="skills__name">React Native</span>
+            </div>
+            <div class="skills__bar skills__ux_80"></div>
+            <div>
+              <span class="skills__percentage">80%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-react skills__icon"></i>
+              <span class="skills__name">React</span>
+            </div>
+            <div class="skills__bar skills__ux_80"></div>
+            <div>
+              <span class="skills__percentage">80%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-javascript skills__icon"></i>
+              <span class="skills__name">JAVASCRIPT</span>
+            </div>
+            <div class="skills__bar skills__ux_75"></div>
+            <div>
+              <span class="skills__percentage">75%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-typescript skills__icon"></i>
+              <span class="skills__name">TYPESCRIPT</span>
+            </div>
+            <div class="skills__bar skills__ux_75"></div>
+            <div>
+              <span class="skills__percentage">75%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-angular skills__icon"></i>
+              <span class="skills__name">Angular</span>
+            </div>
+            <div class="skills__bar skills__ux_70"></div>
+            <div>
+              <span class="skills__percentage">70%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-html5 skills__icon"></i>
+              <span class="skills__name">HTML5</span>
+            </div>
+            <div class="skills__bar skills__html"></div>
+            <div>
+              <span class="skills__percentage">90%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-css3 skills__icon"></i>
+              <span class="skills__name">CSS3</span>
+            </div>
+            <div class="skills__bar skills__css"></div>
+            <div>
+              <span class="skills__percentage">80%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div> -->
+      </div>
+    </section>
+
+    <!--===== WORK =====-->
+    <section class="work section" style="padding-bottom: 1rem;" id="work">
+      <h2 class="section-title" style="margin-bottom: 20px;">Works</h2>
+
+      <!-- <div class="work__container bd-grid">
+        <a href="#project1" class="work__img">
+          <img src="assets/img/work1.jpg" alt="" />
+        </a>
+        <a href="#project2" class="work__img">
+          <img src="assets/img/work2.jpg" alt="" />
+        </a>
+        <a href="#project3" class="work__img">
+          <img src="assets/img/work3.jpg" alt="" />
+        </a>
+        <a href="#project4" class="work__img">
+          <img src="assets/img/work4.jpg" alt="" />
+        </a>
+        <a href="#project5" class="work__img">
+          <img src="assets/img/work5.jpg" alt="" />
+        </a>
+      </div> -->
+    </section>
+    <section class="work section" id="project8">
+      <p class="aboutText projectInfo"><b> Computershare-HK-Mobile-App :</b>
+      <p class="aboutText projectInfo">Led the development of a stock market mobile application for Computershare's Hong
+        Kong division using React Native and GDS Library for UI components. The app provides users with real-time stock
+        market data, personalized watchlists, and interactive charts for informed investment decisions. Collaborated
+        with cross-functional teams to ensure seamless integration with existing financial systems and compliance with
+        regional regulations.
+      </p>
+      </p>
+    </section>
+    <section class="work section" id="project7">
+      <p class="aboutText projectInfo"><b> Computershare-US-Mobile-App :</b>
+      <p class="aboutText projectInfo">Developed a stock market application for Computershare's U.S. division using
+        React Native and GDS Library for UI design. The app offers users intuitive access to investment portfolios,
+        real-time stock quotes, and market news. Ensured the application met all regulatory requirements and provided a
+        user-friendly interface for seamless trading experiences.
+      </p>
+      </p>
+    </section>
+    <section class="work section" id="project6">
+      <p class="aboutText projectInfo"><b> Project Management System :</b>
+      <p class="aboutText projectInfo">The Project Management System at Brane Enterprises is a comprehensive tool
+        designed to streamline project tracking and collaboration. Built with NextJS, Node.js, and Material UI, it
+        facilitates
+        efficient management of tasks, timelines, and resources. The system enables real-time updates,
+        fosters team communication, and ensures project alignment with business goals, making it an
+        essential asset for managing complex projects effectively.
+      </p>
+      </p>
+    </section>
+    <section class="work section" id="project5">
+      <p class="aboutText projectInfo"><b>MediBrane :</b>
+      <p class="aboutText projectInfo">MediBrane, developed at Brane Enterprises, is an advanced healthcare management
+        system built using Angular, .NET, and Tailwind. It streamlines patient data management, appointment scheduling,
+        and healthcare resource allocation. The system ensures secure and efficient access to medical
+        records, enhancing patient care and operational efficiency. MediBrane integrates seamlessly with
+        existing healthcare infrastructure, making it a vital tool for modernizing and optimizing healthcare
+        delivery.
+      </p>
+      </p>
+    </section>
+    <section class="work section" id="project4">
+      <p class="aboutText projectInfo">
+        <b>Right Candidate:</b>
+      <p class="aboutText projectInfo">The Right Candidate mobile application is a
+        comprehensive tool designed to streamline the hiring process and
+        enhance HR management within your organization. With a user-friendly
+        interface and powerful features, this application empowers HR
+        professionals to efficiently manage candidate profiles, agendas, job
+        openings, interview schedules, and interview status updates.
+      </p>
+      </p>
+    </section>
+    <section class="work section" id="project3">
+      <p class="aboutText projectInfo"><b>Electronic Audits :</b>
+      <p class="aboutText projectInfo">This project aims to revolutionize healthcare delivery for patients with kidney
+        disease by implementing innovative solutions. It encompasses health surveys, equipment surveys in healthcare
+        centers, and an authorization system to ensure secure and efficient access to patient data and healthcare
+        resources. For Patient and member Engagement enhancing the healthcare experience.
+      </p>
+      </p>
+    </section>
+    <section class="work section" id="project2">
+      <p class="aboutText projectInfo"><b>Survey World :</b>
+      <p class="aboutText projectInfo">This project aims to revolutionize healthcare centers to be active and provide
+        licensed facility centers to patients with kidney disease by implementing innovative solutions. It encompasses
+        surveys on healthcare centers and in healthcare centers related to licenses, and an authorization system to
+        ensure secure and efficient access to patient data and healthcare resources. This project is related to a
+        healthcare company that develops solutions to transform healthcare for patients with kidney disease. For Patient
+        and member Engagement enhancing the healthcare experience.
+      </p>
+      </p>
+    </section>
+    <section class="work section" id="project1">
+      <p class="aboutText projectInfo"><b>Change Healthcare :</b>
+      <p class="aboutText projectInfo">This project is focused on a healthcare company dedicated to improving clinical,
+        financial, and care outcomes, ensuring that everyone in the healthcare system thrives. It optimizes financial
+        performance through Payments & Revenue Cycle management, enhances operational efficiency in Clinical & Imaging,
+        and improves patient and member engagement, leading to a better overall healthcare experience.
+      </p>
+      </p>
+    </section>
+
+    <!--===== CONTACT =====-->
+    <!--             <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="mailto:kodamphanindhra2005@gmail.com" method="post" enctype="text/plain" class="contact__form">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Send" class="contact__button button">
+                        Hi Phanindhra Let's be Billionaire together 
+                    </form>
+                </div>
+            </section> -->
+  </main>
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p class="footer__title">Rashi Mishra</p>
+    <div class="footer__social">
+      <a href="https://www.linkedin.com/in/rashi-mishra-a16593146/" target="_blank" class="footer__icon"><i
+          class="bx bxl-linkedin"></i></a>
+      <a href="https://github.com/rashee2020" class="footer__icon"><i class="bx bxl-github"></i></a>
+      <a href="assets/Resume.pdf" download="rashee_resume" class="footer__icon"><i class="bx bxs-download"></i></a>
+      <!-- <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a> -->
+    </div>
+    <!-- <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p> -->
+    <p class="footer__copy">
+      "@ Programming isn't about what you know; it's about what you can figure out."
+    </p>
+  </footer>
+
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
